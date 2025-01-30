@@ -8,9 +8,42 @@ body{
     display:flex;
     background: linear-gradient(135deg, #120720 40%, #4d0792, rgba(113, 5, 68, 0.911));
 }
-
-
-
+h1{
+    font-size: 4.5em;
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    background-image: linear-gradient(90deg, #8b5cf6, #fcaa4d);
+    text-align: center;
+    white-space: nowrap; /* Prevents text from wrapping */
+    display: inline-block;
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text;
+    color: transparent;
+    overflow: hidden;
+    
+    animation: typing 4s steps(12) 1s backwards, blink 0.3s step-end 1s forwards;
+  }
+  
+  /* Create the typing effect */
+  @keyframes typing {
+    0% {
+      width: 40;
+    }
+    100% {
+      width: 50%;
+    }
+  }
+  
+  /* Create the blinking cursor effect */
+  @keyframes blink {
+    0%, 50% {
+      border-color: transparent;
+    }
+    50.1%, 100% {
+      border-color: transparent;
+    }
+  }
 .background-container{
     position: relative;
     width: 100%;
@@ -21,10 +54,10 @@ body{
 }
 .glowing-circle {
     position: absolute;
-    top: 25%;
+    top: 20%;
     right: 10%;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     background: radial-gradient(circle,rgba(250, 0, 255, 0.8), rgba(242, 55, 246, 0.6), rgba(255, 255, 255, 0.534), rgba(255, 0, 150, 0));                   
     border-radius: 50%;
     box-shadow: 0 0 40px 20px rgba(144, 197, 240, 0.5);
@@ -33,10 +66,10 @@ body{
   /*circle overlay for profile pic*/
   .profile-circle {
     position: absolute;
-    top: 30%;
+    top: 25%;
     right: 12.5%;
-    width: 270px;
-    height: 270px;
+    width: 370px;
+    height: 370px;
     border-radius: 50%;
     background: url('2pic.jpg') center/cover no-repeat;
     z-index: 1;
