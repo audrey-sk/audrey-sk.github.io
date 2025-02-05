@@ -6,6 +6,7 @@
 }
 body{
     display:flex;
+    height: 100vh;
     background: linear-gradient(135deg, #120720 40%, #4d0792, rgba(113, 5, 68, 0.911));
 }
 h1{
@@ -28,10 +29,10 @@ h1{
   /* Create the typing effect */
   @keyframes typing {
     0% {
-      width: 40;
+      width: 0vw;
     }
     100% {
-      width: 50%;
+      width: 35vw;
     }
   }
   
@@ -90,4 +91,16 @@ h1{
 
 }
 
+.icons{
+  display: flex;
+  position: absolute;
+    top: 50vh;
+    right: 55vw;
+    align-items: center;
+
+}
+.icons a{
+  text-decoration: none;
+  margin: 1vw;
+}
 
