@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(135deg, #120720 40%, #4d0792, rgba(113, 5, 68, 0.911));
+}
+
+h1{
+    font-size: 4.5vw; 
+    align-items: center;
+    position: absolute;
+    top: 5vh;
+    right: 37vw;
+    background-image: linear-gradient(90deg, #8b5cf6, #fcaa4d);
+    text-align: center;
+    white-space: nowrap; /* Prevents text from wrapping */
+    display: inline-block;
+    -webkit-background-clip: text; /* Clip the background to the text */
+    background-clip: text;
+    color: transparent;
+    overflow: hidden;
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+
+img{
+    height: 40vh;
+    width: 100%;
+    border-radius: 3px;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    animation: fadeIn 7s forwards; 
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+.card{
+    margin: 20px;
+    height: 40vh;
+    width: 30vw;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.7s;
+}
+.intro{
+    height: 87px;
+    width: 30vw;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: linear-gradient(90deg, #8b5cf6, #fcaa4d);
+    opacity: 0.8;
+    color: #120720;
+    bottom: 30vh;
+}
+
+.card:hover .intro{
+    height: 110px;
+    bottom: 2px;
+    background-color:linear-gradient(90deg, #8b5cf6, #fcaa4d); 
+    opacity: 1;
+}
+
+.card:hover p{
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+

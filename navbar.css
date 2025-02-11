@@ -1,20 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #222;
     color: white;
-    width: 700px;
-    height: 50px;
-    position: relative;
+    width: 30vw;
+    height: 7vh;
+    position: absolute;
+    right: 50vw;
     border-radius: 50px;
+    margin-top: 30px;
 }
 
 nav a {
@@ -25,38 +20,9 @@ nav a {
     font-weight: 500;
     padding: 0 20px;
     z-index: 1;
+    text-decoration: none;
+    text-align: center;
 }
 
-nav span {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 90px;
-    height: 100%;
-    border-radius: 50px;
-    background: rgba(242, 55, 246, 0.6);
-    transition: left 0.3s ease, width 0.3s ease; /* Smooth transition */
-}
 
-nav a:nth-child(1):hover ~ span {
-    left: 0;
-}
 
-nav a:nth-child(2):hover ~ span {
-    left: 95px;
-}
-
-nav a:nth-child(3):hover ~ span {
-    left: 190px;
-    width: 110px;
-}
-
-nav a:nth-child(4):hover ~ span {
-    left: 290px;
-    width: 115px;
-}
-
-nav a:nth-child(5):hover ~ span {
-    left: 414px;
-    width: 115px;
-}
