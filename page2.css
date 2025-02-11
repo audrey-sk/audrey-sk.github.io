@@ -54,6 +54,7 @@ p{
 body{
     display:flex;
     background: linear-gradient(135deg, #120720 40%, #4d0792, rgba(113, 5, 68, 0.911));
+    scroll-behavior: smooth;
     
 }
 .background-container{
@@ -86,3 +87,18 @@ body{
     box-shadow: 0 0 40px 20px rgba(144, 197, 240, 0.5);
     
   }
+
+  .icons{
+    display: flex;
+    position: absolute;
+    top: 90vh;
+    right: 83vw;
+    align-items: center;
+  
+  }
+.icons a{
+    text-decoration: none;
+    margin: 1vw;
+  }
+
+  

@@ -8,6 +8,7 @@ body{
     display:flex;
     height: 100vh;
     background: linear-gradient(135deg, #120720 40%, #4d0792, rgba(113, 5, 68, 0.911));
+    scroll-behavior: smooth;
 }
 h1{
     font-size: 4.5em;
@@ -94,13 +95,15 @@ h1{
 .icons{
   display: flex;
   position: absolute;
-    top: 50vh;
-    right: 55vw;
-    align-items: center;
+  top: 50vh;
+  right: 55vw;
+  align-items: center;
 
 }
 .icons a{
   text-decoration: none;
   margin: 1vw;
 }
+
+
 

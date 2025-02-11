@@ -82,3 +82,19 @@ img:hover{
     border-radius: 10px;
    
 }
+.icons{
+    display: flex;
+    position: absolute;
+    top: 90vh;
+    right: 83vw;
+    height: 5vh;
+    align-items: center;
+  
+  }
+.icons a {
+    position: static;
+    margin: 1vw;
+    background: none;
+    text-decoration: none;
+}
+
