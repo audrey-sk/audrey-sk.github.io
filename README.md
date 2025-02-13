@@ -1,1 +1,3 @@
 # portfolio
+
+I chose the MIT License for my portfolio website because it provides a straightforward, permissive licensing model that encourages collaboration and reuse while protecting my work. The MIT License allows others to freely use, modify, and distribute my code, even for commercial purposes, as long as they include the original copyright notice. This openness aligns with my goal of contributing to the developer community and making my code accessible for learning or inspiration. Additionally, the simplicity and clarity of the MIT License make it easier for others to understand their rights and responsibilities, ensuring transparency while retaining credit for my work.
