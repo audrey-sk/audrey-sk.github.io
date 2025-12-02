@@ -118,7 +118,7 @@ const App: React.FC = () => {
                   {exp.company}
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-slate-300 text-sm leading-relaxed">
-                  {exp.description.map((item, i) => (
+                  {exp.description.map((item: string, i: number) => (
                     <li key={i}>{item}</li>
                   ))}
                 </ul>
@@ -148,7 +148,7 @@ const App: React.FC = () => {
                    </span>
                  </div>
                  <ul className="space-y-2 text-slate-300">
-                    {vol.description.map((item, i) => (
+                    {vol.description.map((item: string, i: number) => (
                       <li key={i} className="flex items-start gap-2">
                         <span className="mt-2 w-1.5 h-1.5 bg-secondary rounded-full flex-shrink-0 mr-1" />
                         <span>{item}</span>
