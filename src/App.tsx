@@ -165,10 +165,7 @@ const App: React.FC = () => {
       <section id="projects" className="py-24 bg-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-white mb-4">Featured Projects</h2>
-            <p className="text-slate-400 max-w-2xl mx-auto">
-              Selected works.
-            </p>
+            <h2 className="text-3xl font-bold text-white mb-4">Featured Projects & Selected works</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
