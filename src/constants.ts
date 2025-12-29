@@ -41,7 +41,7 @@ export const PROJECTS: Project[] = [
   {
     id: 4,
     title: "Endangered Animal Detector",
-    description: "This system is designed to track and assess the vulnerability of endangered species based on image input. It identifies the animal in the image by classifying it into one of 10 known categories using a custom-trained Convolutional Neural Network (CNN). Vulnerability Assessment: It returns the animal's family and its current endangerment status (e.g., “Endangered,” “Not Endangered,” “Endangered, species-dependent”) by cross-referencing the predicted animal class against a lookup table.",
+    description: "This system is designed to track and assess the vulnerability of endangered species based on image input. It identifies the animal in the image by using a CNN to classify it into one of 10 known categories using a custom-trained Convolutional Neural Network (CNN).",
     technologies: ["Python", "TensorFlow/Keras", "ResNet50", "Pandas", "Transfer Learning"],
     imageUrl: "public/project-thumbnails/endangeredAnimals.png",
     githubUrl: "#",
@@ -89,7 +89,7 @@ export const EXPERIENCE: Experience[] = [
   },
   {
     id: 3,
-    role: "Website Developer",
+    role: "Frontend Developer",
     company: "Canadian Undergraduate Journal of Cognitive Science",
     period: "Mar 2025 – Jun 2025",
     description: [
