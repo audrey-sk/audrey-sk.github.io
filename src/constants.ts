@@ -16,7 +16,7 @@ export const PROJECTS: Project[] = [
     title: "CarbonLens",
     description: " A multi-platform tool that quantifies software carbon footprints using Azure.",
     technologies: ["Microsoft Ideathon 2025 Winner"],
-    imageUrl: "Public/project-thumbnails/CL.jpg",
+    imageUrl: "public/project-thumbnails/CL.jpg",
     githubUrl: "#",
     liveUrl: "#"
   },
@@ -25,7 +25,7 @@ export const PROJECTS: Project[] = [
     title: "Chehre AI Pipeline",
     description: "Built end-to-end PyTorch pipelines for dataset ingestion, preprocessing, and model training to support emotion-analysis models for SFU Rosie Lab.",
     technologies: ["Python", "PyTorch", "Pandas", "OpenCV", "AWS"],
-    imageUrl: "Public/project-thumbnails/chehre.jpeg",
+    imageUrl: "public/project-thumbnails/chehre.jpeg",
     githubUrl: "https://github.com/audrey-sk/Chehre-preprocessing.git",
     liveUrl: "#"
   },
@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
     title: "Plan A",
     description: "A cross-functional, clinician-facing tool recommending contraceptive alternatives based on patient symptoms.",
     technologies: ["UBC nwHacks 2025", "React"],
-    imageUrl: "Public/project-thumbnails/plan A.png",
+    imageUrl: "public/project-thumbnails/plan A.png",
     githubUrl: "https://devpost.com/software/plan-a-2064j9",
     liveUrl: "#"
   },
@@ -43,7 +43,7 @@ export const PROJECTS: Project[] = [
     title: "Endangered Animal Detector",
     description: "This system is designed to track and assess the vulnerability of endangered species based on image input. It identifies the animal in the image by classifying it into one of 10 known categories using a custom-trained Convolutional Neural Network (CNN). Vulnerability Assessment: It returns the animal's family and its current endangerment status (e.g., “Endangered,” “Not Endangered,” “Endangered, species-dependent”) by cross-referencing the predicted animal class against a lookup table.",
     technologies: ["Python", "TensorFlow/Keras", "ResNet50", "Pandas", "Transfer Learning"],
-    imageUrl: "Public/project-thumbnails/endangeredAnimals.png",
+    imageUrl: "public/project-thumbnails/endangeredAnimals.png",
     githubUrl: "#",
     liveUrl: "#"
   },
@@ -52,7 +52,7 @@ export const PROJECTS: Project[] = [
     title: "2Cents",
     description: "An AI financial advisor using Gemini API and Plaid API to fetch and visualize real-time banking transactions.",
     technologies: ["React", "Plaid API", "Gemini Api", "Jest"],
-    imageUrl: "Public/project-thumbnails/2cents.png",
+    imageUrl: "public/project-thumbnails/2cents.png",
     githubUrl: "https://github.com/CMPT-276-SPRING-2025/final-project-14-clouds",
     liveUrl: "#"
   },
@@ -61,7 +61,7 @@ export const PROJECTS: Project[] = [
     title: "Never gonna let you browse",
     description: "Just for fun!",
     technologies: ["Mountain Madness 2025 Winner", "Chrome Extension", "JavaScript"],
-    imageUrl: "Public/project-thumbnails/nglub.png",
+    imageUrl: "public/project-thumbnails/nglub.png",
     githubUrl: "https://devpost.com/software/never-gonna-let-you-browse",
     liveUrl: "#"
   }
