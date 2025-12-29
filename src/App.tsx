@@ -10,10 +10,12 @@ const App: React.FC = () => {
   const [typingSpeed, setTypingSpeed] = useState(150);
 
   const roles = [
+    "CS Student @ SFU",
+    "HCI Researcher",
     "Software Developer",
     "Machine Learning Engineer",
-    "HCI Researcher",
-    "CS Student @ SFU"
+    
+    
   ];
 
   useEffect(() => {
